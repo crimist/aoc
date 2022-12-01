@@ -1,9 +1,4 @@
-L = ["Geeks\n", "for\n", "Geeks\n"]
-
-# Using readlines()
-file1 = open('input', 'r')
-lines = file1.readlines()
-
+lines = open('input', 'r').readlines()
 largest = 0
 current = 0
 
